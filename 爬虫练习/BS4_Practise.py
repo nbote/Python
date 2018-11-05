@@ -20,7 +20,7 @@ jiexi = BeautifulSoup(myHtml, 'html.parser')
 jiexi1 = jiexi.findAll('h1')
 
 for i in jiexi1:
-    if 'My' in i.string:
+    # if 'My' in i.string:
         print(i.string)
 
 
